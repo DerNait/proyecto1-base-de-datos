@@ -138,7 +138,7 @@ INSERT INTO pedidos (usuario_id, vendedor_id, precio_total, creado_en, actualiza
 -- Insertando pagos de empleados
 INSERT INTO pagos_empleados (empleado_id, periodo_mes, periodo_anio, tipo_estados, monto_base, monto_total, creado_en, actualizado_en) VALUES
 (1, 3, 2024, 1, 3500.00, 3600.00, NOW(), NOW()),
-(2, 3, 2024, 1, 2500.00, 2550.00, NOW(), NOW());
+(2, 3, 2024, 1, 2500.00, 2450.00, NOW(), NOW());
 
 -- Insertando ajustes salariales
 INSERT INTO tipo_ajustes (ajuste) VALUES
